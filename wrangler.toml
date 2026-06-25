@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "env": {
+    "production": {
+      "routes": [
+        {
+          "pattern": "example.com",
+          "zone_name": "example.com"
+        }
+      ],
+      "build": {
+        "command": "",
+        "cwd": "/",
+        "root": "/"
+      },
+      "env": {}
+    }
+  }
+}
